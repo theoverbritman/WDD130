@@ -1,16 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+.home-title {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 nav a {
     text-align: center;
-    color: blue;
+    color: #214e34;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: steelblue;
     color: white;
+}
+
+.card-img {
+    border: 10px solid #95a78d;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 #hero-msg h1 {
@@ -30,6 +46,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -38,24 +57,40 @@ main section {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 body {
     background-color: white;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
+h2 {
+    margin: 0;
+}
 
 header {
     background-color: #a07178;
 }
 
 
-.book {
-    background-color: white;
+.book, .join {
+    background-color: #95a78d;
     color: #214e34;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: steelblue;
@@ -70,11 +105,7 @@ h4 {
     color: black;
 }
 
-.join {
-    background-color: #a07178;
-    color: blue;
-    text-decoration: none;
-}
+
 .join:hover {
     background-color: steelblue;
     color: white;
@@ -88,20 +119,27 @@ h4 {
 
 .msg {
     background-color: #a07178;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #a07178;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    color: blue;
+    color: #214e34;
     text-decoration: none;
 }
 footer a:hover {
@@ -113,4 +151,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }

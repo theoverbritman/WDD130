@@ -1,0 +1,130 @@
+/* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0a0a0a; /* Primary color */
+    color: #eede2f; /* Accent color for text */
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0a0a0a; /* Primary color */
+    border-bottom: 2px solid #eede2f; /* Accent color */
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF8811; /* Secondary color */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eede2f; /* Accent color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #FF8811; /* Secondary color on hover */
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: white; /* Primary color */
+}
+
+/* Intro Paragraph Styling */
+.intro {
+    max-width: 800px; /* Controls the width of the paragraph */
+    text-align: justify; /* Wrap text neatly and align both sides */
+    line-height: 1.8; /* Better spacing between lines */
+    margin: 20px auto; /* Center horizontally and add spacing */
+    padding: 15px;
+    background-color: #FF8811; /* Secondary color for contrast */
+    border: 2px solid #eede2f; /* Accent border */
+    color: #0a0a0a; /* Primary color for text */
+    border-radius: 8px; /* Softens the corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Container for Large Image and Text Rectangle */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+}
+
+/* Large Image Box */
+.large-image {
+    flex: 1;
+    height: 300px;
+    background-color: #FF8811; /* Secondary color */
+    border: 2px solid #eede2f; /* Accent color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a0a0a; /* Primary color for contrast */
+}
+
+/* Text Rectangle Box */
+.text-rectangle {
+    flex: 1;
+    height: 300px;
+    background-color: #eede2f; /* Accent color */
+    border: 2px solid #FF8811; /* Secondary color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0a0a0a; /* Primary color for text */
+}
+
+/* Small Image */
+.small-image {
+    width: 150px;
+    height: 150px;
+    background-color: #FF8811; /* Secondary color */
+    border: 2px solid #eede2f; /* Accent color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a0a0a; /* Primary color */
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #0a0a0a; /* Primary color */
+    border-top: 2px solid #eede2f; /* Accent color */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF8811; /* Secondary color for text */
+}

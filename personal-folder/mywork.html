@@ -4,7 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Word Smith | My Work</title>
-    <!--Insert link to css here-->
+    <style>/* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Body styling */
+        body {
+            font-family: Lato, sans-serif;
+            line-height: 1.6;
+            display: grid;
+            grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+            min-height: 100vh;
+        }
+        
+        /* Header */
+        header {
+            display: grid;
+            grid-template-columns: auto 1fr; /* Logo and Navigation */
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #0a0a0a; /* Light background for header */
+            border-bottom: 1px solid #ddd; /* Optional: border to separate header */
+        }
+        
+        header img {
+            width: 180px;
+            height: auto;
+        }
+
+        
+        header nav ul {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 20px;
+            list-style: none;
+            justify-content: flex-end;
+        }
+        
+        header nav ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #eede2f; /* Accent color */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #FF8811; /* Secondary color on hover */
+        }
+        
+        /* Main Section */
+        main {
+            display: grid;
+            grid-template-rows: auto auto; /* Two sections */
+            gap: 20px; /* Space between sections */
+            padding: 20px;
+        }
+        
+        .main-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Image and Text side-by-side */
+            gap: 20px;
+            align-items: center; /* Aligns items vertically */
+        }
+        
+        .main-container img {
+            width: 100%; /* Ensure the image spans its grid column */
+            height: auto;
+            border: 1px solid #ddd; /* Optional: subtle border around images */
+        }
+        
+        .text-rectangle {
+            padding: 20px;
+            background-color: #f4f4f4; /* Light grey background for contrast */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Full-width image below */
+        main > img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd; /* Optional: subtle border */
+        }
+        
+        /* Footer Section */
+        footer {
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #0a0a0a; /* Primary color */
+            border-top: 2px solid #eede2f; /* Accent color */
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FF8811; /* Secondary color for text */
+        }
+        
+        footer p {
+            margin-bottom: 5px;
+        }
+        
+        footer li {
+            list-style: none;
+        }
+        
+        
+        </style>
 </head>
 <body>
     

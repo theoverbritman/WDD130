@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #0a0a0a; /* Primary color */
     color: #eede2f; /* Accent color for text */
@@ -42,6 +42,7 @@ header nav ul li a {
     color: #eede2f; /* Accent color */
     font-weight: bold;
     transition: color 0.3s;
+    font-family: "IM Fell French Canon SC";
 }
 
 header nav ul li a:hover {

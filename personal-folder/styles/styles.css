@@ -1,5 +1,6 @@
 /* styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* General Reset */
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-    font-family: Lato, Helvetica, sans-serif;
+    font-family: Lato, Montserrat;
     line-height: 1.6;
     background-color: #0a0a0a; /* Primary color */
     color: #eede2f; /* Accent color for text */
@@ -42,7 +43,7 @@ header nav ul li a {
     color: #eede2f; /* Accent color */
     font-weight: bold;
     transition: color 0.3s;
-    font-family: "IM Fell French Canon SC";
+    font-family: "Bona Nova SC";
 }
 
 header nav ul li a:hover {
